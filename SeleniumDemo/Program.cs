@@ -9,7 +9,7 @@ namespace SeleniumDemo
     {
         static void Main()
         {
-            var browser = new FirefoxDriver();
+            var browser = new FirefoxDriver(); // or InternetExplorerDriver() or ChromeDriver()
 
             browser.Navigate().GoToUrl("https://www.google.com/");
 
